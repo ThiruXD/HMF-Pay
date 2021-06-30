@@ -36,7 +36,6 @@
 
 ### Credits:
 Idea from [Upayi](https://github.com/cyberboysumanjay/upayi "Upayi") by [Sumanjay](https://github.com/cyberboysumanjay/ "Sumanjay")<br>
-Designed & Developed to [Me (Tuhin)](https://github.com/cachecleanerjeet "Me (Tuhin)")
 
 <br><br>
 
