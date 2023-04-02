@@ -13,12 +13,12 @@ if (virpa == null) {
     var vpa = params.get('vpa');
     if (am == null) {
         document.getElementById("payingam").innerHTML = "You are paying";
-        var upilink = "upi://pay?pn=" + vpa + "&tn=UPIER&pa=" + vpa + "&cu=INR";
-        var qr_string = "upi://pay?pn=" + vpa + "~tn=UPIER~pa=" + vpa + "~cu=INR"
+        var upilink = "upi://pay?pn=" + vpa + "&tn=HMFPay&pa=" + vpa + "&cu=INR";
+        var qr_string = "upi://pay?pn=" + vpa + "~tn=HMFPay~pa=" + vpa + "~cu=INR"
     } else {
         var amount = params.get('amount');
-        var upilink = "upi://pay?pn=" + vpa + "&tn=UPIER&pa=" + vpa + "&cu=INR" + "&am=" + amount;
-        var qr_string = "upi://pay?pn=" + vpa + "~tn=UPIER~pa=" + vpa + "~cu=INR" + "~am=" + amount;
+        var upilink = "upi://pay?pn=" + vpa + "&tn=HMFPay&pa=" + vpa + "&cu=INR" + "&am=" + amount;
+        var qr_string = "upi://pay?pn=" + vpa + "~tn=HMFPay~pa=" + vpa + "~cu=INR" + "~am=" + amount;
         document.getElementById("payingam").innerHTML = "You are paying " + amount + "₹";
 
     }
