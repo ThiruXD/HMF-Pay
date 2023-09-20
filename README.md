@@ -1,4 +1,4 @@
-<h1 align="center"> ThiruXD/HMF-GateWay</h1>
+<h1 align="center"> HMF Pay - GateWay Free QR</h1>
 ### Features:<br>
 
 *i.  Totally Free.*<br>
